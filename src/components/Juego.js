@@ -25,7 +25,7 @@ const Juego = ({ name, image, released, id }) => {
     >
       <Link to={`/game/${id}`}>
         <motion.h3>{name}</motion.h3>
-        <p>{released}</p>
+        <p>Lanzamiento: {released}</p>
         <motion.img
           layoutId={`image${stringPathId}`}
           src={smallImage(image, 640)}
@@ -38,7 +38,7 @@ const Juego = ({ name, image, released, id }) => {
 
 const JuegoDiv = styled(motion.div)`
   min-height: 30vh;
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
   text-align: center;
   border-radius: 1rem;
   overflow: hidden;
@@ -49,4 +49,5 @@ const JuegoDiv = styled(motion.div)`
     object-fit: cover;
   }
 `;
+
 export default Juego;

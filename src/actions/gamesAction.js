@@ -1,12 +1,5 @@
 import axios from "axios";
-import {
-  popularGamesUrl,
-  upcomingGamesUrl,
-  newGamesUrl,
-  searchGameUrl,
-} from "../api";
-
-// ACTION CREATOR
+import { popularGamesUrl, upcomingGamesUrl, newGamesUrl, searchGameUrl} from "../api";
 
 export const loadGames = () => async (dispatch) => {
   // Fetch axios

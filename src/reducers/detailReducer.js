@@ -6,14 +6,13 @@ const initialState = {
 
 const detailReducer = (state = initialState, action) => {
   switch (action.type) {
-    case "GET_DETAIL":
+    case "OBTENER_DETALLES":
       return {
         ...state,
         game: action.payload.game,
-        screen: action.payload.screen,
         isLoading: false,
       };
-    case "LOADING_DETAIL":
+    case "CARGANDO_DETALLES":
       return {
         ...state,
         isLoading: true,

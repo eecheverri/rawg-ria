@@ -23,11 +23,11 @@ export default function Nav() {
       variants={fadeIn}
       initial="hidden"
       animate="show"
-      className="nav"    >
-      <motion.h1 
-        animate={{x: 20, y: -20}}>
+      className="nav"    
+    >
+      <h1>
         API RAWG - LAB II RIA
-      </motion.h1>
+      </h1>
       <form className="search">
         <input onChange={inputHandler} value={textInput} type="text" />
         <button className="search-btn" type="submit" onClick={submitSearch}>
@@ -57,7 +57,7 @@ const NavBar = styled(motion.div)`
   .search-btn {
     font-size: 1.5rem;
     border: none;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 2.8rem;
     background: #0c659c;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
     color: white;

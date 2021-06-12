@@ -45,7 +45,6 @@ const DetallesJuego = ({ pathId }) => {
                 <small  style={{display: "block"}}>Rating: {game.rating}</small>              
               </div>              
             </Rating>
-            
             <Imagen>
               <motion.img
                 layoutId={`image${pathId}`}

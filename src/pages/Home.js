@@ -17,7 +17,7 @@ const Home = () => {
     dispatch(loadGames());
   }, [dispatch]);
 
-  const { popular, newGames, upcoming, searched } = useSelector(
+  const { popular, upcoming, searched } = useSelector(
     (state) => state.games
   );
 
@@ -80,9 +80,6 @@ const Home = () => {
 
 const ListasDeJuegos = styled(motion.div)`
   padding: 0rem 5rem;
-  h2 {
-    padding: 5rem 0rem;
-  }
   h2 {
     padding: 1rem;
   }
