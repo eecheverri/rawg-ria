@@ -1,6 +1,5 @@
 const initialState = {
   game: { platforms: [] },
-  screen: { results: [] },
   isLoading: true,
 };
 

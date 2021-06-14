@@ -79,8 +79,9 @@ const Home = () => {
 };
 
 const ListasDeJuegos = styled(motion.div)`
-  padding: 0rem 5rem;
+  padding: 0rem  5rem 3rem 5rem;
   h2 {
+    color: #0D1317;
     padding: 1rem;
   }
 `;

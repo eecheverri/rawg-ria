@@ -88,6 +88,9 @@ const Detalles = styled(motion.div)`
   img {
     width: 100%;
   }
+  h2 {
+    color: #131112;
+  }
 `;
 
 const Rating = styled(motion.div)`
@@ -95,11 +98,6 @@ const Rating = styled(motion.div)`
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
-  @media screen and (max-width: 540px) {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
   img {
     height: 2rem;
     width: 2rem;

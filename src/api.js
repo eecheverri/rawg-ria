@@ -40,13 +40,13 @@ console.log(currentDate);
 console.log(process.env.REACT_APP_API_KEY);
 
 //Mas populares - ordena por rate juegos del ultimo año
-const popular_games = `games?key=${process.env.REACT_APP_API_KEY}&dates=${lastYear},${currentDate}&ordering=-rating&page_size=9`;
+const popular_games = `games?key=${process.env.REACT_APP_API_KEY}&dates=${lastYear},${currentDate}&ordering=-rating&page_size=12`;
 
 //Proximos - Fecha actual en adelante 1 año
-const upcoming_games = `games?key=${process.env.REACT_APP_API_KEY}&dates=${currentDate},${nextYear}&ordering=released&page_size=9`;
+const upcoming_games = `games?key=${process.env.REACT_APP_API_KEY}&dates=${currentDate},${nextYear}&ordering=released&page_size=12`;
 
 //Nuevos - 1 año para atras ordenado por fecha
-const new_games = `games?key=${process.env.REACT_APP_API_KEY}&dates=${lastYear},${currentDate}&ordering=-released&page_size=9`;
+const new_games = `games?key=${process.env.REACT_APP_API_KEY}&dates=${lastYear},${currentDate}&ordering=-released&page_size=12`;
 
 export const popularGamesUrl = () => `${base_url}${popular_games}`;
 
@@ -60,4 +60,4 @@ export const gameDetailsUrl = (gameID) =>
 
   //Busqueda ordenados por mas valados
 export const searchGameUrl = (gameName) =>
-  `${base_url}games?key=${process.env.REACT_APP_API_KEY}&search=${gameName}&ordering=-rating&page_size=9`;
+  `${base_url}games?key=${process.env.REACT_APP_API_KEY}&search=${gameName}&ordering=-rating&page_size=12`;

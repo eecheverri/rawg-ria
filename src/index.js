@@ -7,7 +7,7 @@ import thunk from "redux-thunk";
 
 import rootReducer from "./reducers";
 // REACT ROUTER
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
 
 // CONNECTING REDUX WITH REACT
 import { Provider } from "react-redux";
