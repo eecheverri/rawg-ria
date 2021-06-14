@@ -51,12 +51,12 @@ const JuegoDiv = styled(motion.div)`
   }
   img {
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     object-fit: cover;
   }
   background-color: #6564DB;
   h3 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: #white;
   }
 `;
