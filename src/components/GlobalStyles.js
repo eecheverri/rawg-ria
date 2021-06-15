@@ -9,10 +9,9 @@ const GlobalStyles = createGlobalStyle`
      box-sizing:border-box;
  }
 
- body{
-     font-family:"Montserrat",sans-serif;
-     width:100%;
-     
+ body {
+     font-family: "Roboto",sans-serif;
+     width:100%;     
  }
 
  hr {
@@ -20,22 +19,22 @@ const GlobalStyles = createGlobalStyle`
      opacity: .5;
      
  }
- h1{
+
+ h1 {
     font-size:2.8rem;
-    font-family: 'Abril Fatface', cursive;
 }
 
- h2{
+ h2 {
      color: #F7F7FF;
      font-size:2.5rem;
-     font-family: 'Abril Fatface', cursive;
+     font-family: 'Roboto', cursive;
      font-weight:lighter;
  }
 
- h3{
+ h3 {
      font-size:1.3rem;
      color:#F7F7FF;
-     font-family: 'Abril Fatface', cursive;
+     font-family: 'Roboto', cursive;
      padding:1.5rem 0rem;
  }
 
@@ -56,7 +55,7 @@ const GlobalStyles = createGlobalStyle`
 
  input{
      font-weight:bold;
-     font-family:"Montserrat",sans-serif;
+     font-family:"Roboto",sans-serif;
  }
 
 `;

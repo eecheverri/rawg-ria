@@ -45,7 +45,7 @@ const NavBar = styled(motion.div)`
   
   color: #ffffff;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-  background-color: #4a148c;
+  background-color: #212121;
   input {
     background-color: #F7F7FF;
     height: 2.8rem;
@@ -62,7 +62,7 @@ const NavBar = styled(motion.div)`
     font-size: 1.5rem;
     border: none;
     padding: 0.5rem 2.8rem;
-    background: #12005e;
+    background: #01579b;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
     color: white;
     cursor: pointer;
@@ -72,10 +72,4 @@ const NavBar = styled(motion.div)`
     margin-top:1rem;
   }
 
-  .first {
-    color: #bd2d14;
-  }
-  .last {
-    color: #116091;
-  }
 `;
