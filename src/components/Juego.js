@@ -39,7 +39,7 @@ const Juego = ({ name, image, released, id }) => {
 };
 
 const JuegoDiv = styled(motion.div)`
-  min-height: 30vh;
+  min-height: 40vh;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
   text-align: center;
   border-radius: .7rem;
@@ -51,7 +51,8 @@ const JuegoDiv = styled(motion.div)`
   }
   img {
     width: 100%;
-    height: 50vh;
+    min-height: 80%;
+    height: 40vh;
     object-fit: cover;
   }
   background-color: #6564DB;

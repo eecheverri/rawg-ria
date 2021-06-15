@@ -88,9 +88,9 @@ const ListasDeJuegos = styled(motion.div)`
 const Juegos = styled(motion.div)`
   min-height: 80vh;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-column-gap: 3rem;
-  grid-row-gap: 5rem;
+  grid-row-gap: 4rem;
 `;
 
 export default Home;
