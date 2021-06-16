@@ -25,3 +25,5 @@
 * https://www.framer.com/api/motion/ (Animación/Efectos)
 
 * https://react-redux.js.org/ (Estados/acciones)
+
+* https://www.npmjs.com/package/axios (cliente http)

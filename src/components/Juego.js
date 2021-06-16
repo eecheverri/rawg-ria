@@ -55,7 +55,7 @@ const JuegoDiv = styled(motion.div)`
     height: 40vh;
     object-fit: cover;
   }
-  background-color: #6564DB;
+  background-color: #01579b;
   h3 {
     font-size: 1.8rem;
     color: #white;
